@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		751DEBCC1B4706DD00A10C8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBCB1B4706DD00A10C8E /* AppDelegate.swift */; };
+		751DEBCF1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBCD1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld */; };
+		751DEBD11B4706DD00A10C8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBD01B4706DD00A10C8E /* ViewController.swift */; };
+		751DEBD41B4706DD00A10C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751DEBD21B4706DD00A10C8E /* Main.storyboard */; };
+		751DEBD61B4706DD00A10C8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751DEBD51B4706DD00A10C8E /* Images.xcassets */; };
+		751DEBD91B4706DD00A10C8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751DEBD71B4706DD00A10C8E /* LaunchScreen.xib */; };
+		751DEBE51B4706DD00A10C8E /* TravelDestinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBE41B4706DD00A10C8E /* TravelDestinyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		751DEBDF1B4706DD00A10C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 751DEBBE1B4706DD00A10C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 751DEBC51B4706DD00A10C8E;
+			remoteInfo = TravelDestiny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		751DEBC61B4706DD00A10C8E /* TravelDestiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelDestiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		751DEBCA1B4706DD00A10C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751DEBCB1B4706DD00A10C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		751DEBCE1B4706DD00A10C8E /* TravelDestiny.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelDestiny.xcdatamodel; sourceTree = "<group>"; };
+		751DEBD01B4706DD00A10C8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		751DEBD31B4706DD00A10C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		751DEBD51B4706DD00A10C8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		751DEBD81B4706DD00A10C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		751DEBDE1B4706DD00A10C8E /* TravelDestinyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelDestinyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		751DEBE31B4706DD00A10C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		751DEBE41B4706DD00A10C8E /* TravelDestinyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDestinyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		751DEBC31B4706DD00A10C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751DEBDB1B4706DD00A10C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		751DEBBD1B4706DD00A10C8E = {
+			isa = PBXGroup;
+			children = (
+				751DEBC81B4706DD00A10C8E /* TravelDestiny */,
+				751DEBE11B4706DD00A10C8E /* TravelDestinyTests */,
+				751DEBC71B4706DD00A10C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		751DEBC71B4706DD00A10C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				751DEBC61B4706DD00A10C8E /* TravelDestiny.app */,
+				751DEBDE1B4706DD00A10C8E /* TravelDestinyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		751DEBC81B4706DD00A10C8E /* TravelDestiny */ = {
+			isa = PBXGroup;
+			children = (
+				751DEBCB1B4706DD00A10C8E /* AppDelegate.swift */,
+				751DEBD01B4706DD00A10C8E /* ViewController.swift */,
+				751DEBD21B4706DD00A10C8E /* Main.storyboard */,
+				751DEBD51B4706DD00A10C8E /* Images.xcassets */,
+				751DEBD71B4706DD00A10C8E /* LaunchScreen.xib */,
+				751DEBCD1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld */,
+				751DEBC91B4706DD00A10C8E /* Supporting Files */,
+			);
+			path = TravelDestiny;
+			sourceTree = "<group>";
+		};
+		751DEBC91B4706DD00A10C8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				751DEBCA1B4706DD00A10C8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		751DEBE11B4706DD00A10C8E /* TravelDestinyTests */ = {
+			isa = PBXGroup;
+			children = (
+				751DEBE41B4706DD00A10C8E /* TravelDestinyTests.swift */,
+				751DEBE21B4706DD00A10C8E /* Supporting Files */,
+			);
+			path = TravelDestinyTests;
+			sourceTree = "<group>";
+		};
+		751DEBE21B4706DD00A10C8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				751DEBE31B4706DD00A10C8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		751DEBC51B4706DD00A10C8E /* TravelDestiny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751DEBE81B4706DD00A10C8E /* Build configuration list for PBXNativeTarget "TravelDestiny" */;
+			buildPhases = (
+				751DEBC21B4706DD00A10C8E /* Sources */,
+				751DEBC31B4706DD00A10C8E /* Frameworks */,
+				751DEBC41B4706DD00A10C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelDestiny;
+			productName = TravelDestiny;
+			productReference = 751DEBC61B4706DD00A10C8E /* TravelDestiny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		751DEBDD1B4706DD00A10C8E /* TravelDestinyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751DEBEB1B4706DD00A10C8E /* Build configuration list for PBXNativeTarget "TravelDestinyTests" */;
+			buildPhases = (
+				751DEBDA1B4706DD00A10C8E /* Sources */,
+				751DEBDB1B4706DD00A10C8E /* Frameworks */,
+				751DEBDC1B4706DD00A10C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				751DEBE01B4706DD00A10C8E /* PBXTargetDependency */,
+			);
+			name = TravelDestinyTests;
+			productName = TravelDestinyTests;
+			productReference = 751DEBDE1B4706DD00A10C8E /* TravelDestinyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		751DEBBE1B4706DD00A10C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = pinedo;
+				TargetAttributes = {
+					751DEBC51B4706DD00A10C8E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					751DEBDD1B4706DD00A10C8E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 751DEBC51B4706DD00A10C8E;
+					};
+				};
+			};
+			buildConfigurationList = 751DEBC11B4706DD00A10C8E /* Build configuration list for PBXProject "TravelDestiny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 751DEBBD1B4706DD00A10C8E;
+			productRefGroup = 751DEBC71B4706DD00A10C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751DEBC51B4706DD00A10C8E /* TravelDestiny */,
+				751DEBDD1B4706DD00A10C8E /* TravelDestinyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		751DEBC41B4706DD00A10C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751DEBD41B4706DD00A10C8E /* Main.storyboard in Resources */,
+				751DEBD91B4706DD00A10C8E /* LaunchScreen.xib in Resources */,
+				751DEBD61B4706DD00A10C8E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751DEBDC1B4706DD00A10C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		751DEBC21B4706DD00A10C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751DEBD11B4706DD00A10C8E /* ViewController.swift in Sources */,
+				751DEBCF1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld in Sources */,
+				751DEBCC1B4706DD00A10C8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751DEBDA1B4706DD00A10C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751DEBE51B4706DD00A10C8E /* TravelDestinyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		751DEBE01B4706DD00A10C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 751DEBC51B4706DD00A10C8E /* TravelDestiny */;
+			targetProxy = 751DEBDF1B4706DD00A10C8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		751DEBD21B4706DD00A10C8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751DEBD31B4706DD00A10C8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		751DEBD71B4706DD00A10C8E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751DEBD81B4706DD00A10C8E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		751DEBE61B4706DD00A10C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		751DEBE71B4706DD00A10C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		751DEBE91B4706DD00A10C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelDestiny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		751DEBEA1B4706DD00A10C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelDestiny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		751DEBEC1B4706DD00A10C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelDestinyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelDestiny.app/TravelDestiny";
+			};
+			name = Debug;
+		};
+		751DEBED1B4706DD00A10C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelDestinyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelDestiny.app/TravelDestiny";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		751DEBC11B4706DD00A10C8E /* Build configuration list for PBXProject "TravelDestiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751DEBE61B4706DD00A10C8E /* Debug */,
+				751DEBE71B4706DD00A10C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751DEBE81B4706DD00A10C8E /* Build configuration list for PBXNativeTarget "TravelDestiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751DEBE91B4706DD00A10C8E /* Debug */,
+				751DEBEA1B4706DD00A10C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		751DEBEB1B4706DD00A10C8E /* Build configuration list for PBXNativeTarget "TravelDestinyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751DEBEC1B4706DD00A10C8E /* Debug */,
+				751DEBED1B4706DD00A10C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		751DEBCD1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				751DEBCE1B4706DD00A10C8E /* TravelDestiny.xcdatamodel */,
+			);
+			currentVersion = 751DEBCE1B4706DD00A10C8E /* TravelDestiny.xcdatamodel */;
+			path = TravelDestiny.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 751DEBBE1B4706DD00A10C8E /* Project object */;
+}
