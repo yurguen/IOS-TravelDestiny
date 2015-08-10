@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Place" syncable="YES">
+        <attribute name="add_name1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="add_name2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="add_name3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="add_name4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="add_photo1" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="add_photo2" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="add_photo3" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="add_photo4" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description_place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_place" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="load" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="official_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="PlaceToVisit" syncable="YES">
+        <attribute name="description_place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_place" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="id_place_visit" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Place" positionX="-63" positionY="-18" width="128" height="345"/>
+        <element name="PlaceToVisit" positionX="-54" positionY="72" width="128" height="118"/>
+    </elements>
 </model>

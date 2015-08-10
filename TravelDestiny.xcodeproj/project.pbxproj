@@ -11,9 +11,21 @@
 		751DEBCF1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBCD1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld */; };
 		751DEBD11B4706DD00A10C8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBD01B4706DD00A10C8E /* ViewController.swift */; };
 		751DEBD41B4706DD00A10C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751DEBD21B4706DD00A10C8E /* Main.storyboard */; };
-		751DEBD61B4706DD00A10C8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751DEBD51B4706DD00A10C8E /* Images.xcassets */; };
 		751DEBD91B4706DD00A10C8E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751DEBD71B4706DD00A10C8E /* LaunchScreen.xib */; };
 		751DEBE51B4706DD00A10C8E /* TravelDestinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBE41B4706DD00A10C8E /* TravelDestinyTests.swift */; };
+		751DEBF01B47077B00A10C8E /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBEF1B47077B00A10C8E /* Place.swift */; };
+		751DEBF21B47151B00A10C8E /* ViewControllerPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBF11B47151B00A10C8E /* ViewControllerPlaces.swift */; };
+		751DEBF41B483B0D00A10C8E /* FormPlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751DEBF31B483B0D00A10C8E /* FormPlaceController.swift */; };
+		75DCCC741B4EF11300A68CEB /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 75DCCC731B4EF11300A68CEB /* images.jpeg */; };
+		75DDDF141B4D66A4004BAF8F /* PlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDDF131B4D66A4004BAF8F /* PlaceController.swift */; };
+		75DDDF161B4D76A1004BAF8F /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDDF151B4D76A1004BAF8F /* PageContentViewController.swift */; };
+		75E6A3311B4DC44E0039EE1E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E6A32B1B4DC44E0039EE1E /* Icon-72.png */; };
+		75E6A3321B4DC44E0039EE1E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E6A32C1B4DC44E0039EE1E /* Icon-Small-50.png */; };
+		75E6A3331B4DC44E0039EE1E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E6A32D1B4DC44E0039EE1E /* Icon-Small.png */; };
+		75E6A3341B4DC44E0039EE1E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E6A32E1B4DC44E0039EE1E /* Icon-Small@2x.png */; };
+		75E6A3351B4DC44E0039EE1E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E6A32F1B4DC44E0039EE1E /* Icon.png */; };
+		75E6A3361B4DC44E0039EE1E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E6A3301B4DC44E0039EE1E /* Icon@2x.png */; };
+		75E6A3401B4E86AF0039EE1E /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6A33F1B4E86AF0039EE1E /* PlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +45,23 @@
 		751DEBCE1B4706DD00A10C8E /* TravelDestiny.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelDestiny.xcdatamodel; sourceTree = "<group>"; };
 		751DEBD01B4706DD00A10C8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		751DEBD31B4706DD00A10C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		751DEBD51B4706DD00A10C8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		751DEBD81B4706DD00A10C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		751DEBDE1B4706DD00A10C8E /* TravelDestinyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelDestinyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		751DEBE31B4706DD00A10C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751DEBE41B4706DD00A10C8E /* TravelDestinyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDestinyTests.swift; sourceTree = "<group>"; };
+		751DEBEF1B47077B00A10C8E /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = TravelDestiny/Place.swift; sourceTree = "<group>"; };
+		751DEBF11B47151B00A10C8E /* ViewControllerPlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPlaces.swift; sourceTree = "<group>"; };
+		751DEBF31B483B0D00A10C8E /* FormPlaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormPlaceController.swift; sourceTree = "<group>"; };
+		75DCCC731B4EF11300A68CEB /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../Downloads/images.jpeg; sourceTree = "<group>"; };
+		75DDDF131B4D66A4004BAF8F /* PlaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceController.swift; sourceTree = "<group>"; };
+		75DDDF151B4D76A1004BAF8F /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		75E6A32B1B4DC44E0039EE1E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../Downloads/MDW-GuiaiOS04-UIImagePickerController-master/MDW-Guia-iOS04/Iconos/Icon-72.png"; sourceTree = "<group>"; };
+		75E6A32C1B4DC44E0039EE1E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "../../Downloads/MDW-GuiaiOS04-UIImagePickerController-master/MDW-Guia-iOS04/Iconos/Icon-Small-50.png"; sourceTree = "<group>"; };
+		75E6A32D1B4DC44E0039EE1E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../Downloads/MDW-GuiaiOS04-UIImagePickerController-master/MDW-Guia-iOS04/Iconos/Icon-Small.png"; sourceTree = "<group>"; };
+		75E6A32E1B4DC44E0039EE1E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../Downloads/MDW-GuiaiOS04-UIImagePickerController-master/MDW-Guia-iOS04/Iconos/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		75E6A32F1B4DC44E0039EE1E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = "../../Downloads/MDW-GuiaiOS04-UIImagePickerController-master/MDW-Guia-iOS04/Iconos/Icon.png"; sourceTree = "<group>"; };
+		75E6A3301B4DC44E0039EE1E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Downloads/MDW-GuiaiOS04-UIImagePickerController-master/MDW-Guia-iOS04/Iconos/Icon@2x.png"; sourceTree = "<group>"; };
+		75E6A33F1B4E86AF0039EE1E /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,8 @@
 		751DEBBD1B4706DD00A10C8E = {
 			isa = PBXGroup;
 			children = (
+				75E6A32A1B4DC42C0039EE1E /* Icono */,
+				751DEBEE1B47070900A10C8E /* Model */,
 				751DEBC81B4706DD00A10C8E /* TravelDestiny */,
 				751DEBE11B4706DD00A10C8E /* TravelDestinyTests */,
 				751DEBC71B4706DD00A10C8E /* Products */,
@@ -79,13 +105,18 @@
 		751DEBC81B4706DD00A10C8E /* TravelDestiny */ = {
 			isa = PBXGroup;
 			children = (
+				75DCCC731B4EF11300A68CEB /* images.jpeg */,
 				751DEBCB1B4706DD00A10C8E /* AppDelegate.swift */,
 				751DEBD01B4706DD00A10C8E /* ViewController.swift */,
 				751DEBD21B4706DD00A10C8E /* Main.storyboard */,
-				751DEBD51B4706DD00A10C8E /* Images.xcassets */,
 				751DEBD71B4706DD00A10C8E /* LaunchScreen.xib */,
 				751DEBCD1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld */,
 				751DEBC91B4706DD00A10C8E /* Supporting Files */,
+				751DEBF11B47151B00A10C8E /* ViewControllerPlaces.swift */,
+				75DDDF131B4D66A4004BAF8F /* PlaceController.swift */,
+				751DEBF31B483B0D00A10C8E /* FormPlaceController.swift */,
+				75DDDF151B4D76A1004BAF8F /* PageContentViewController.swift */,
+				75E6A33F1B4E86AF0039EE1E /* PlaceViewController.swift */,
 			);
 			path = TravelDestiny;
 			sourceTree = "<group>";
@@ -113,6 +144,27 @@
 				751DEBE31B4706DD00A10C8E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		751DEBEE1B47070900A10C8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				751DEBEF1B47077B00A10C8E /* Place.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		75E6A32A1B4DC42C0039EE1E /* Icono */ = {
+			isa = PBXGroup;
+			children = (
+				75E6A32B1B4DC44E0039EE1E /* Icon-72.png */,
+				75E6A32C1B4DC44E0039EE1E /* Icon-Small-50.png */,
+				75E6A32D1B4DC44E0039EE1E /* Icon-Small.png */,
+				75E6A32E1B4DC44E0039EE1E /* Icon-Small@2x.png */,
+				75E6A32F1B4DC44E0039EE1E /* Icon.png */,
+				75E6A3301B4DC44E0039EE1E /* Icon@2x.png */,
+			);
+			name = Icono;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +248,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				751DEBD41B4706DD00A10C8E /* Main.storyboard in Resources */,
+				75E6A3361B4DC44E0039EE1E /* Icon@2x.png in Resources */,
+				75DCCC741B4EF11300A68CEB /* images.jpeg in Resources */,
+				75E6A3311B4DC44E0039EE1E /* Icon-72.png in Resources */,
+				75E6A3331B4DC44E0039EE1E /* Icon-Small.png in Resources */,
+				75E6A3321B4DC44E0039EE1E /* Icon-Small-50.png in Resources */,
+				75E6A3351B4DC44E0039EE1E /* Icon.png in Resources */,
 				751DEBD91B4706DD00A10C8E /* LaunchScreen.xib in Resources */,
-				751DEBD61B4706DD00A10C8E /* Images.xcassets in Resources */,
+				75E6A3341B4DC44E0039EE1E /* Icon-Small@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751DEBF21B47151B00A10C8E /* ViewControllerPlaces.swift in Sources */,
+				75DDDF161B4D76A1004BAF8F /* PageContentViewController.swift in Sources */,
+				751DEBF41B483B0D00A10C8E /* FormPlaceController.swift in Sources */,
+				75E6A3401B4E86AF0039EE1E /* PlaceViewController.swift in Sources */,
 				751DEBD11B4706DD00A10C8E /* ViewController.swift in Sources */,
 				751DEBCF1B4706DD00A10C8E /* TravelDestiny.xcdatamodeld in Sources */,
 				751DEBCC1B4706DD00A10C8E /* AppDelegate.swift in Sources */,
+				75DDDF141B4D66A4004BAF8F /* PlaceController.swift in Sources */,
+				751DEBF01B47077B00A10C8E /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TravelDestiny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TravelDestiny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +475,7 @@
 				751DEBEA1B4706DD00A10C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		751DEBEB1B4706DD00A10C8E /* Build configuration list for PBXNativeTarget "TravelDestinyTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +484,7 @@
 				751DEBED1B4706DD00A10C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
